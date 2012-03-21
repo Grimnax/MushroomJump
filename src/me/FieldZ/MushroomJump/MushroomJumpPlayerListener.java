@@ -40,7 +40,7 @@ public class MushroomJumpPlayerListener implements Listener{
 					player.setVelocity(vec);
 				} else if(block.getType() == Material.HUGE_MUSHROOM_2) {
 					Vector dir = player.getLocation().getDirection().multiply(1.75);
-					Vector vec = new Vector(dir.getX(), 3.0D, dir.getZ());
+					Vector vec = new Vector(dir.getX(), 9.0D, dir.getZ());
 					player.setVelocity(vec);
 				}
 			}
